@@ -1,0 +1,118 @@
+header{
+	background-color: #BBBBBB;
+
+}
+
+.container{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+	font-family: 'Cormorant Garamond', serif;
+    position: absolute; 
+    top: 110px; 
+    right: 0; 
+}
+
+nav ul {
+	display: inline;
+    margin: 0 0 0 16px;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 16px;
+}
+
+nav li a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #F7D358;
+    text-decoration: underline;
+}
+
+nav a:hover:active{
+    color: #DF7401;
+}
+
+#banner {
+    position: relative;
+    margin: 15px 0px 10px 30px;
+	width: 50%;
+    border-radius: 20px;
+}
+
+.principal{
+	font-family: 'Cormorant Garamond', serif;
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.titulo-centralizado {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px;
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic;
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+.beneficios h3 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 300px;
+    font-family:'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+    position: relative;
+    margin-left: 195px;
+	width: 50%;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    background: url(../img/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 13px;
+    margin: 0 20px 0;
+}

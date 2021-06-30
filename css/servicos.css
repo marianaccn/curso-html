@@ -9,6 +9,7 @@ header {
 }
 
 nav {
+    font-family: 'Cormorant Garamond', serif;
     position: absolute; 
     top: 110px; 
     right: 0; 
@@ -16,7 +17,7 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 16px;
 }
 
 nav a {
@@ -27,7 +28,14 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover{
+    color: #F7D358;
+    text-decoration: underline;
+}
+
 .produtos {
+	font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
@@ -41,6 +49,20 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: #F7D358;
+}
+
+.produtos li:active{
+    border-color: #DF7401;
+}
+
+.produtos li:hover h2{
+    font-size: 33px;
 }
 
 .produtos h2 {
@@ -56,4 +78,16 @@ nav a {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(../img/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 13px;
+    margin: 0 20px 0;
 }
