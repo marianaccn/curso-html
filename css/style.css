@@ -45,39 +45,50 @@ nav a:hover:active{
 }
 
 #banner {
-    position: relative;
-    margin: 15px 0px 10px 30px;
-	width: 50%;
+    margin: 15px 0px 10px 60px;
+	width: 60%;
     border-radius: 20px;
 }
 
 .principal{
-	font-family: 'Cormorant Garamond', serif;
-	background: #CCCCCC;
-	padding: 30px;
+    display: inline-block;
+    background: #FFFFFF;
 }
 
-.titulo-centralizado {
+.texto{
+    position: absolute;
+    margin: 60px 30px 20px 20px;
+    display: inline-block;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 30px;
 	text-align: center;
+    margin: 0 10px 40px 50px;
+    border-bottom: 4px solid #F7D358;
 }
 
 p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: bold;
 	text-align: center;
-}
-
-#missao {
-	font-size: 20px;
-}
-
-em strong {
-	color: #FF0000;
+    padding: 5px 0px 10px 0px;
 }
 
 .itens {
+    font-family:'Cormorant Garamond', serif;
 	font-style: italic;
+    font-size: 25px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .beneficios {
+    display: inline-block;
 	background: #FFFFFF;
 	padding: 20px;
 }
@@ -94,14 +105,11 @@ em strong {
 ul {
 	display: inline-block;
 	vertical-align: top;
-	width: 20%;
 	margin-right: 15%;
 }
 
 .imagembeneficios {
-    position: relative;
-    margin-left: 195px;
-	width: 50%;
+	width: 40%;
     border-radius: 20px;
 }
 
