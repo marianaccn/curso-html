@@ -36,13 +36,10 @@ nav li a {
 }
 
 nav a:hover{
-    color: #F7D358;
+    color: #DF7401;
     text-decoration: underline;
 }
 
-nav a:hover:active{
-    color: #DF7401;
-}
 
 #banner {
     margin: 15px 0px 10px 60px;
@@ -64,53 +61,64 @@ nav a:hover:active{
 h2 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
 	text-align: center;
     margin: 0 10px 40px 50px;
-    border-bottom: 4px solid #F7D358;
 }
 
 p {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 22px;
 	text-align: center;
-    padding: 5px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+strong {
+    color:#DF7401;
+    font-weight: bold;
 }
 
 .itens {
     font-family:'Cormorant Garamond', serif;
 	font-style: italic;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
+}
+
+.itens:hover{
+    border-bottom:1px solid #DF7401;
 }
 
 .beneficios {
     display: inline-block;
 	background: #FFFFFF;
-	padding: 20px;
+	padding: 20px 0px 20px 0px;
 }
 
-.beneficios h3 {
+h3 {
     display: flex;
     justify-content: flex-start;
     padding-left: 300px;
     font-family:'Cormorant Garamond', serif;
     font-size: 30px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 ul {
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 15%;
+    align-items: center;
+    padding: 30px 0px 0px 220px;
 }
 
 .imagembeneficios {
-	width: 40%;
+    float: right;
+	width: 43%;
     border-radius: 20px;
+    margin-right: 57px;
 }
 
 footer {
